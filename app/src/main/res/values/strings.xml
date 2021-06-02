@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Region Selector App</string>
+
+    <!--general-->
+    <string name="tv_unknown">Unknown</string>
+    <string name="tv_na">NA</string>
+    
+    <!--main fragment-->
+    <string name="tv_your_region">Your Region</string>
+
+    <!--select region bottom sheet-->
+    <string name="tv_select_region">Select a region:</string>
+    <string name="tv_no_region">No region!</string>
+    <string name="bt_reload">Reload</string>
+
+    <!--toast error-->
+    <string name="toast_error_unable_to_fetch__latest_data">Unable to fetch data! Data shown may not be up to date.</string>
+    
+</resources>

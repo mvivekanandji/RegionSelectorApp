@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_selected_region"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivFlag"
+        android:layout_width="@dimen/flag_dimen"
+        android:layout_height="@dimen/flag_dimen"
+        android:layout_margin="@dimen/general_layout_margin"
+        android:layout_gravity="center_vertical"
+        app:srcCompat="@drawable/ic_baseline_flag_24" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvRegion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constrainedWidth="true"
+        android:layout_marginStart="@dimen/general_layout_margin"
+        android:layout_marginEnd="@dimen/general_layout_margin"
+        android:layout_gravity="center_vertical"
+        android:text="@string/tv_unknown"
+        tools:text="India" />
+</androidx.appcompat.widget.LinearLayoutCompat>
